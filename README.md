@@ -15,8 +15,8 @@ OZONE_REPLICATION_FACTOR=3 ./run.sh -d
 ```
 
 #### open ozone_test_client project
-1. mvn clean install -DskipTests
-2. Run main class from IDE
+1. ```mvn clean install -DskipTests```
+2. run main class from IDE
 * try to write data to ozone bucket, but got an exception 
 
 
