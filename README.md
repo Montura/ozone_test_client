@@ -14,18 +14,16 @@ cd hadoop-ozone/dist/target/ozone-1.4.0-SNAPSHOT/compose/ozone
 OZONE_REPLICATION_FACTOR=3 ./run.sh -d
 ```
 
-#### open ozone_test_client project
-1. ```mvn clean install -DskipTests```
-2. run main class from IDE
-* try to write data to ozone bucket, but got an exception 
-
-
 #### docker output
 * Containers are working 
 ![image](https://github.com/Montura/ozone_test_client/assets/4503006/42c0d227-45a9-4803-9dc1-561217e7a0e1)
 * OM log
 ![image](https://github.com/Montura/ozone_test_client/assets/4503006/c3ea3edc-21b5-45a2-94f7-b4e2d497acec)
 
+
+#### open ozone_test_client project
+1. ```mvn clean install -DskipTests```
+2. run main class from IDE (trying to write data to ozone bucket, but got an exception) 
 
 #### java sample output
 
