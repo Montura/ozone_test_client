@@ -16,12 +16,17 @@ OZONE_REPLICATION_FACTOR=3 ./run.sh -d
 
 #### open ozone_test_client project
 1. Run main class
+* try to write data to ozone bucket, but got an exception 
 
 
 #### docker output
+* Containers are working 
+![image](https://github.com/Montura/ozone_test_client/assets/4503006/42c0d227-45a9-4803-9dc1-561217e7a0e1)
+* OM log
 ![image](https://github.com/Montura/ozone_test_client/assets/4503006/c3ea3edc-21b5-45a2-94f7-b4e2d497acec)
 
-#### sample output
+
+#### java sample output
 
 ```
 main] WARN org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
