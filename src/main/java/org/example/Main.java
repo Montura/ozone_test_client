@@ -22,7 +22,7 @@ import java.util.HashMap;
 import java.util.UUID;
 
 public class Main {
-  private static final String BUCKET_NAME = "videos1";
+  private static final String BUCKET_NAME = "videos";
   private static final String VOLUME_NAME = "assets";
   private static final String OZONE_URI_SCHEME = "o3fs";
   private static final String OZONE_FS_HSYNC_ENABLED = "ozone.fs.hsync.enabled";
