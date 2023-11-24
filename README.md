@@ -1,5 +1,5 @@
 # ozone_test_client
-Sample demonstrating the problem with writing data to apache/ozone storage
+Sample demonstrating the problem with writing data to apache/ozone storage using RPC cleint
 
 ### Steps to reproduce
 
